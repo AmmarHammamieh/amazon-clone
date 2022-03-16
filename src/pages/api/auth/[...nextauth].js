@@ -9,6 +9,7 @@ export default NextAuth({
       clientSecret: process.env.Google_SECRET,
     }),
     // ...add more providers here
+      secret:" gg ",
   ],
-  secret:" gg ",
+
 })
